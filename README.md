@@ -1,2 +1,2 @@
 # ColumnGenerationColoring
-A messy implementation of column generation for the set partitioning graph coloring formulation 
+Implementation of column generation for graph coloring. The code is a messy/bad version of the Mehrotra-Trick approach.
