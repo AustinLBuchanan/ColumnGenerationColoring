@@ -1,5 +1,5 @@
 # ColumnGenerationColoring
-A quick implementation of column generation for graph coloring. The code is based on the Mehrotra-Trick approach--done just as a coding exercise in an afternoon. The implementation is not great. The links below offer the theory and a much better implementation.
+A quick implementation of column generation for graph coloring. The implementation is not great; I did it just as a coding exercise in an afternoon. The links below offer the theory and a much better implementation.
 
 Mehrotra and Trick paper:
 https://pubsonline.informs.org/doi/abs/10.1287/ijoc.8.4.344
