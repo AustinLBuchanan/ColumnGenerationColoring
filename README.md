@@ -1,4 +1,4 @@
-# ColumnGenerationColoring
+# Column Generation for Graph Coloring
 A quick implementation of column generation for graph coloring. The implementation is not great; I did it just as a coding exercise in an afternoon. The links below offer the theory and a much better implementation.
 
 Mehrotra and Trick paper:
