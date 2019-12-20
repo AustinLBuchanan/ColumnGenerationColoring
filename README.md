@@ -21,3 +21,5 @@ https://link.springer.com/article/10.1007/s12532-012-0042-3
 
 Held, Cook, and Sewell implementation:
 https://code.google.com/archive/p/exactcolors/
+
+I'm happy to link to other column generation/branch-and-price repositories. Just send me an email.
