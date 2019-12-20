@@ -7,7 +7,7 @@ min \sum_s x_s
 \sum_{s:i \in s} x_s >= 1 for all vertices i  
 x_s \in {0,1} for all maximal independent sets s.  
      
-The implementation given here only solves the LP relaxation. It begins by computing a degeneracy coloring of the graph. Each color class is extended to a maximal independent set s. This gives an initial set of variables: x_s for s \in S'. The LP (restricted to these columns S') is solved. New columns are added as needed until the restricted LP gives a solution that is optimal for the full LP. The pricing problem is a maximum-weight independent set problem and is solved via the usual IP formulation:
+The implementation given here only solves the LP relaxation. It begins by computing a degeneracy coloring of the graph. Each color class is extended to a maximal independent set s. This gives an initial set of variables: x_s for s \in S'. The LP (restricted to the independent sets S') is solved. New columns are added as needed until the restricted LP gives a solution that is optimal for the full LP. The pricing problem is a maximum-weight independent set problem and is solved via the usual IP formulation:
 
 max \sum_i w_i y_i  
 y_i + y_j <= 1 for all edges {i,j}  
