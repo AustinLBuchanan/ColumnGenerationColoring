@@ -1,5 +1,5 @@
 # Column Generation for Graph Coloring
-A (very quick) implementation of column generation for graph coloring. The IP formulation is:
+A (quick and dirty) implementation of column generation for graph coloring. The IP formulation is:
 
 min \sum_s x_s  
 \sum_{s:i \in s} x_s >= 1 for all vertices i  
@@ -11,7 +11,7 @@ max \sum_i w_i x_i
 x_i + x_j <= 1 for all edges {i,j}  
 x_i \in {0,1} for all vertices i.  
 
-This implementation given here is not great; I did it just as a coding exercise in an afternoon. The links below offer the theory and a much better implementation.
+The implementation given here is not great; I did it just as a coding exercise in an afternoon. The links below offer the theory and a much better implementation.
 
 Mehrotra and Trick paper:
 https://pubsonline.informs.org/doi/abs/10.1287/ijoc.8.4.344
