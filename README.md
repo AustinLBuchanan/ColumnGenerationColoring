@@ -18,6 +18,9 @@ The implementation given here is not great; I did it just as a coding exercise i
 Mehrotra and Trick paper:
 https://pubsonline.informs.org/doi/abs/10.1287/ijoc.8.4.344
 
+Gualandi and Malucelli paper:
+https://pubsonline.informs.org/doi/10.1287/ijoc.1100.0436
+
 Held, Cook, and Sewell paper:
 https://link.springer.com/article/10.1007/s12532-012-0042-3
 
